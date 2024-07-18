@@ -1,0 +1,197 @@
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    width: 1440;
+  }
+  .btn{
+    background:  hsl(5, 85%, 63%);
+    color:  hsl(240, 100%, 5%);
+    margin-top: 0.5rem;
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+    width: 100px;
+   }
+   .btn:hover{
+    background:  hsl(240, 100%, 5%);
+    color:white;
+   }
+  .but{
+    display:none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    color: hsl(35, 77%, 62%);
+  }
+  li{
+    list-style: none;
+  }
+  p{
+    font-size: 10px;
+    font-weight: 10;
+    line-height: 1.4rem;
+  }
+  .attribution { 
+     font-size: 11px;
+     text-align: center; 
+     padding-top:1rem;
+     padding-bottom:1rem;
+    }
+  .attribution a { color: hsl(228, 45%, 44%); }
+  .Main{
+    margin: 5rem 14rem 5rem 14rem;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:1rem;
+    padding-top: 1rem;
+  }
+  .menu h2{
+    font-size: x-large;
+    font-weight: 900;
+    font-family: Bold;
+  }
+  .navbar,.navbar ul{
+    display: flex;
+  }
+  .navbar ul li{
+    padding: 0 0.5rem 1rem 0.5rem;
+  }
+  .menu1{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  .left .web{
+    display: flex;
+    gap:3rem;
+    margin-top: 0.7rem;
+  }
+  .mobile{
+    display: none;
+  }
+  .menu1 .left .web h2{
+    font:bold ;
+    font-size: 34px;
+  }
+  .right{
+    background:  hsl(240, 100%, 5%);
+    color: white;
+    padding:1rem 2rem 1rem 1rem;
+    width: 300px;
+    height:380px;
+  }
+  .right h4{
+    padding-top: 2rem;
+    padding-bottom:0.6rem;
+  }
+  .right p{
+    padding-bottom:1rem;
+  }
+  .hydo{
+    border-bottom:1px solid hsl(236, 13%, 42%);
+  }
+  .AI{
+    border-bottom:1px solid hsl(236, 13%, 42%); 
+  }
+  .menu2{
+    display: flex;
+    gap: 1rem;
+    margin-top:2rem;
+  }
+  .menu2 .test{
+    display:flex;
+    gap:1rem;
+  }
+  .test1 h3{
+    font-size:20px;
+    font-weight:800;
+  }
+  h4:hover{
+    color:hsl(35, 77%, 62%);;
+  }
+  .test1 h3,h5,p{
+    padding-bottom:0.5rem;
+  }
+  .right p{
+    line-height:1.5rem;
+  }
+  h5:hover{
+    color: hsl(5, 85%, 63%);
+  }
+/*================================================== Mobile Devices ==================================================*/
+@media(max-width: 1024px) {
+    body{
+      width: 350px;
+      margin-left: 2rem;
+      padding: 0;
+    }
+    .Main{
+      margin: 0;
+      padding: 0;
+    }
+   .p{
+      font-size:16px;
+      font-weight: 10;
+    }
+    .menu1{
+        display:inline-block;
+        gap: 1rem;
+      }
+    .left .web{
+        display:inline-block;
+        gap:1rem;
+        margin-top:1rem;
+      }
+    .right{
+      margin-top: 1rem;
+    }
+    .menu2{
+        display:inline-block;
+        gap: 1rem;
+        width: 100%;
+      } 
+      .mobile{
+        display: inline-block;
+      }
+    .desktop{
+      display: none;
+    }
+    .test{
+      margin-top:1rem;
+    }
+      .navbar ul {
+        position:none;
+        display: none;
+      }
+      .but{
+        display: inline-block;
+        #close{
+          display: none;
+        }
+      }
+      .but{
+        display: inline-block;
+        background: white;
+        font-size: 1.8rem;
+        cursor: pointer;
+        margin: auto 10px;
+        height: 35px;
+
+      }
+      .nav_menu {
+        right: 1.5rem;
+        position: absolute;
+        padding-top: 3rem;
+        top: 3.5rem;
+        height:400px;
+        width: 170px;
+        flex-direction: column;
+        gap: 0;
+        background:hsl(36, 100%, 99%);
+      }
+}
